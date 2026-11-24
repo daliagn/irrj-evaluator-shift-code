@@ -1,0 +1,701 @@
+seed,query_id,method,pool_size,label_key,ndcg@5,err@5,spearman,kendall_tau_b
+0,age=4|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,150,yA_expected,0.6217139406153915,0.6795903347157817,0.6496448731054714,0.4723937360178971
+0,age=8|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,122,yA_expected,0.7698571118352739,0.6809924425737435,0.40261250871552207,0.27679176263378946
+0,age=7|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,126,yA_expected,0.7557504486724402,0.6711222848922149,0.5142167229096363,0.37803174603174605
+0,age=9|moral=patience|culture=European,roberta_large_pointwise_yB_expected,152,yA_expected,0.6706894479709623,0.5127029953850288,0.6065992796560938,0.43185779017079123
+0,age=7|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.6381713493816852,0.7028901903006957,0.6395291731169593,0.46048150322959486
+0,age=5|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,160,yA_expected,0.593341309818973,0.6150000759494268,0.6331858666354154,0.4531446540880503
+0,age=5|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.7287211858309366,0.6614573277025632,0.5046847048300537,0.35319767441860467
+0,age=5|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,118,yA_expected,0.7665925623098032,0.8458698626217922,0.6548376847479539,0.48341300883673766
+0,age=5|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7960608974717567,0.6685669634157019,0.5294950329802803,0.3693007510843119
+0,age=7|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,157,yA_expected,0.6903708710437907,0.6359621088843077,0.49453606137472944,0.3423158582394251
+0,age=10|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.7349002082416324,0.7061118981704821,0.428719288301831,0.30124777183600715
+0,age=6|moral=patience|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.9326638782494298,0.6691398830817515,0.6198801198801199,0.44348554671135315
+0,age=6|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.632774511190964,0.7143424759446779,0.6355998156389546,0.45745969620725
+0,age=8|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.603407260400314,0.7217188113032316,0.6530630592063016,0.46808510638297873
+0,age=6|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,124,yA_expected,0.9310376909067138,0.7433945907456203,0.4777403619197482,0.32861264096511933
+0,age=5|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,146,yA_expected,0.6659127576629518,0.6073474722137792,0.5739716387263455,0.40897496457250826
+0,age=8|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.6501439616514754,0.5882925678165623,0.5469911209070091,0.3840942961658312
+0,age=10|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.554928255454814,0.652786742215964,0.4937555903398927,0.34011627906976744
+0,age=9|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,145,yA_expected,0.8091753041495388,0.8322102449920958,0.4975948669500866,0.35747126436781607
+0,age=5|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.7620499915281312,0.6096289578470309,0.404695885509839,0.2865794573643411
+0,age=9|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6764226076806914,0.5562998819423225,0.6160053534876397,0.43007662835249044
+0,age=4|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,147,yA_expected,0.7851357891099054,0.6114289029158693,0.6269522247995829,0.445158885471997
+0,age=4|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,120,yA_expected,0.5854146634627068,0.5074491715756119,0.23327314396833113,0.15826330532212884
+0,age=4|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6562111444859621,0.48025766895541006,0.6564084396158085,0.46187739463601535
+0,age=7|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,143,yA_expected,0.6728084733306307,0.6222176655423189,0.47740815522505664,0.3318231064709938
+0,age=4|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.7096271869161392,0.5099378546671907,0.5259698302925416,0.36633872844599596
+0,age=8|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.6225504828381142,0.696348923388368,0.49138876961977007,0.3442265795206972
+0,age=6|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.5974199032374966,0.5625746233890014,0.17851818196347397,0.11964455728340209
+0,age=7|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.7833861217136451,0.6927533131576483,0.5174954098633159,0.3618488491286926
+0,age=5|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,106,yA_expected,0.8509817769740547,0.5653257060391818,0.6811748998664886,0.49469901168014374
+0,age=4|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,131,yA_expected,0.6189150031593574,0.5645521668847612,0.4977686435701703,0.3489136817381092
+0,age=6|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.7022382456702919,0.7167394217807953,0.5720480893087162,0.40370370370370373
+0,age=6|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,132,yA_expected,0.7981722197820598,0.6004435621540909,0.5430961164187359,0.39070090215128384
+0,age=6|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.725977168902504,0.7931590682391257,0.5038998730273898,0.3550284978856407
+0,age=10|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,149,yA_expected,0.7654906851549018,0.6619832632700285,0.4252748050063486,0.2862325412660983
+0,age=7|moral=patience|culture=European,roberta_large_pointwise_yB_expected,133,yA_expected,0.723384074130082,0.5259614505575984,0.6540180165474745,0.4638869902027797
+0,age=5|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,112,yA_expected,0.709592831877207,0.668548308603804,0.6109013564765777,0.45012870012870015
+0,age=7|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,132,yA_expected,0.730779742056538,0.7317523171409142,0.6014307107115464,0.421235253296322
+0,age=10|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,142,yA_expected,0.705970351541907,0.7788766938488926,0.5349959816889484,0.379002048322517
+0,age=10|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.7923629867406815,0.7520583556091817,0.6767241486801581,0.48939512961508247
+0,age=9|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,139,yA_expected,0.6718957976206118,0.5702049094561933,0.5723401403101122,0.39735168387029507
+0,age=6|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7224824398631011,0.9325441720516193,0.6154028330130926,0.43446981545198626
+0,age=7|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.6797258742829199,0.6966038652709966,0.5016587174563745,0.34772030043372476
+0,age=4|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7273640167347982,0.6862145121551477,0.47518209035256265,0.328537170263789
+0,age=10|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,134,yA_expected,0.7176943199432871,0.7868178149015189,0.34746318532650033,0.23824486589608349
+0,age=7|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,139,yA_expected,0.8410195187607197,0.7622471552413519,0.6466687519549578,0.4665832551350224
+0,age=5|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,152,yA_expected,0.7751506590263135,0.6623657087930529,0.6125896158393647,0.42802370163820147
+0,age=9|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,136,yA_expected,0.6817704645113524,0.7495670991675007,0.32803301369209487,0.22549019607843138
+0,age=4|moral=patience|culture=African,roberta_large_pointwise_yB_expected,133,yA_expected,0.8627687046725591,0.6265395686814242,0.5580793911508758,0.3978127136021873
+0,age=5|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,141,yA_expected,0.6578895842396753,0.6053200799762243,0.3221670448221242,0.22249240121580546
+0,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.7500530177278308,0.6747799593517425,0.7869618737108257,0.5935524652338812
+0,age=9|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,144,yA_expected,0.5532879964147044,0.4948682627707895,0.01694397556466522,0.012237762237762238
+0,age=9|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,163,yA_expected,0.6336032541026076,0.7089143006068223,0.43484296806158246,0.3036431114140726
+0,age=9|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.6903839251167151,0.7510392120162898,0.5826578488761786,0.4204983839015744
+0,age=4|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.8407103889612534,0.9322393015384176,0.5638990586258084,0.39602868174296746
+0,age=5|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.6905863750062916,0.7028484508547378,0.583259488603,0.4184380504991192
+0,age=10|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.7119833168669347,0.7580899797066062,0.46708507164883006,0.3288590604026846
+0,age=10|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,140,yA_expected,0.6756633772773273,0.7213544908833476,0.600179309439986,0.41808838643371016
+0,age=8|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.7617059968082279,0.641982803063655,0.3828093412338794,0.2577483443708609
+0,age=10|moral=patience|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.8656528479979934,0.7232037147959315,0.4965033368417928,0.3517401883000106
+0,age=6|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.7556491480369188,0.5603651114024312,0.5361481681046785,0.3771289537712895
+0,age=5|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,111,yA_expected,0.8434761344195792,0.6990635401048022,0.5821253071253071,0.4168714168714169
+0,age=4|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,108,yA_expected,0.685281460806598,0.6378602325200996,0.7414425486105157,0.5462097611630322
+0,age=9|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,135,yA_expected,0.502316530057657,0.51069404884639,0.14637108574773192,0.10093974571586511
+0,age=7|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,162,yA_expected,0.7404554354295174,0.6001883652560015,0.6604441960536919,0.468292308872019
+0,age=4|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,124,yA_expected,0.5940604565810026,0.6511322230934136,0.6557797010228167,0.47023341201153945
+0,age=7|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,110,yA_expected,0.6290420939477418,0.559713466917562,0.09335256858192638,0.06688907422852378
+0,age=6|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7370305683123128,0.6162157687554699,0.4702017466101973,0.33221707869595196
+0,age=7|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,133,yA_expected,0.7962842462683888,0.7578886128379554,0.5746217647238857,0.40419229892914105
+0,age=9|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,147,yA_expected,0.6180631430783745,0.7304068813773146,0.5027956388034666,0.3476842791911285
+1,age=4|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.7269294236713232,0.5478058726867938,0.554463105757449,0.398970398970399
+1,age=9|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,135,yA_expected,0.6543320986617699,0.6717474136864948,0.4943029948297727,0.34262023217247095
+1,age=5|moral=patience|culture=African,roberta_large_pointwise_yB_expected,105,yA_expected,0.6797899526430222,0.6662444001236767,0.7139228695832469,0.508058608058608
+1,age=9|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,117,yA_expected,0.7794585605437964,0.6925243298692126,0.5896012228566291,0.41025641025641024
+1,age=7|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.6453548427603306,0.721838646579293,0.6204825708642503,0.44897240164415736
+1,age=5|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.6232640734859833,0.6678536203835708,0.6441520311749319,0.46048150322959486
+1,age=6|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,134,yA_expected,0.8910449913533095,0.6905417327560844,0.5301836681255377,0.37941869599371564
+1,age=5|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,139,yA_expected,0.9388251972321718,0.6605915052689333,0.668108494570803,0.48368261912209365
+1,age=4|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,115,yA_expected,0.7311555145647931,0.613691130333034,0.06671664167916042,0.04591914569031274
+1,age=4|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.7336562760047107,0.8839267590343047,0.7014068863383932,0.5165408629205107
+1,age=6|moral=patience|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.887760063935388,0.6537829217722315,0.6196352035061713,0.44616673648931715
+1,age=4|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,130,yA_expected,0.6645217602583186,0.6491990746544084,0.5780887054160239,0.41385890705110623
+1,age=9|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.7189841161824782,0.6855497510306964,0.5536001788908765,0.3871124031007752
+1,age=7|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,140,yA_expected,0.526441365846992,0.5533714754546422,0.5419256084494107,0.3858170606372045
+1,age=9|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7192255226005102,0.8159954404981755,0.4493540497061624,0.3164581896976263
+1,age=6|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,116,yA_expected,0.5365575955311634,0.5552855311944392,0.2339983854226733,0.15892053973013492
+1,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.6978566124161687,0.9176989658936535,0.5854300844425362,0.41002178649237475
+1,age=6|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.6654625365384418,0.7102207286990725,0.641338430966611,0.4628645978939521
+1,age=6|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,124,yA_expected,0.9090143732252519,0.7402578397694494,0.482360346184107,0.33359559402045635
+1,age=8|moral=respect|culture=African,roberta_large_pointwise_yB_expected,137,yA_expected,0.6273699230618356,0.6215028605884466,0.5221918345249874,0.358308286818377
+1,age=10|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,144,yA_expected,0.6201045525075711,0.6744270762497665,0.47998151274013345,0.3368298368298368
+1,age=8|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.7788258494701583,0.6382028824332435,0.47714375083783905,0.3397977270357627
+1,age=4|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6721262949731251,0.4853283915998974,0.6612974334750433,0.4729885057471264
+1,age=6|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.7577989216017116,0.5190823906855152,0.5195357311559484,0.36230514879546527
+1,age=6|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.6597798924117306,0.7738723946566991,0.5902094801075839,0.42125649504015117
+1,age=4|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,143,yA_expected,0.6984911726818146,0.6411195899892494,0.621195705702748,0.44646902393381266
+1,age=6|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.6295649583396608,0.5772922138155827,0.11342522300788375,0.07732994816460383
+1,age=10|moral=patience|culture=African,roberta_large_pointwise_yB_expected,123,yA_expected,0.7355218439679186,0.6306294448960506,0.54291831654435,0.382380381180861
+1,age=7|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.7961609409728975,0.6575865011002989,0.5689464975179261,0.4071381977448514
+1,age=8|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.825283748705204,0.8101162154222445,0.6361872101810776,0.4562572728234423
+1,age=4|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.7478428004252876,0.6505845836729487,0.4956603169126888,0.353874883286648
+1,age=4|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,131,yA_expected,0.7138962055316269,0.7402302066419395,0.5123098275770032,0.3613623018203171
+1,age=5|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,124,yA_expected,0.8595296511025127,0.9237048816409996,0.6570007867820614,0.46472593758195646
+1,age=9|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,127,yA_expected,0.6625705304142242,0.5955008956861907,0.5961637607799025,0.4318210223722035
+1,age=7|moral=patience|culture=European,roberta_large_pointwise_yB_expected,133,yA_expected,0.7710879706841932,0.534002289251091,0.6288193346323747,0.44679881521986786
+1,age=10|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,118,yA_expected,0.6880027010337892,0.6348503909735747,0.5308214550487731,0.36868028393452124
+1,age=8|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.6862603180939987,0.5281281724883949,0.6206036196448469,0.43905129619415334
+1,age=10|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.8546753853320124,0.9329343602362726,0.6936021646155189,0.5084726742228706
+1,age=8|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7185618416887829,0.7060687751236896,0.6658637545691787,0.4712789590606157
+1,age=8|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,158,yA_expected,0.7443272618151038,0.550291142820279,0.6544414847898941,0.4717407078932516
+1,age=5|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.7612955907507312,0.638636332849801,0.6244016924745592,0.44622173193601766
+1,age=8|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.5853449028311468,0.6331236250939323,0.605451392208005,0.4306499701848539
+1,age=5|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,122,yA_expected,0.7235538196204283,0.5443066039043369,0.2399734321147574,0.15837962335726866
+1,age=4|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,133,yA_expected,0.5277764538268875,0.5161272894535939,0.20382877138572347,0.12987012987012986
+1,age=6|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.6299177976752899,0.7312648599198422,0.4675025178538729,0.31914370078740156
+1,age=7|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,150,yA_expected,0.8012869735196962,0.7663301748740696,0.5352753455709143,0.3861297539149888
+1,age=7|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,133,yA_expected,0.5253027692211266,0.6440048279362199,0.16851491007029107,0.11164274322169059
+1,age=10|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,101,yA_expected,0.7472122765194126,0.7029121510166825,0.7093884682585906,0.5152475247524753
+1,age=6|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,134,yA_expected,0.5662286834291071,0.6484350071953037,0.6884300302996297,0.49725058915946585
+1,age=9|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,119,yA_expected,0.6283558338264774,0.6482893953398263,0.49047856430707876,0.3220338983050847
+1,age=9|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,132,yA_expected,0.6877469315099684,0.5234231764429867,0.2887540095305029,0.19351107544940815
+1,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.7608724794328942,0.6694286954575891,0.7757751680085169,0.5809102402022756
+1,age=5|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.9443046751426211,0.9578566203369324,0.6087782071466056,0.4326797385620915
+1,age=5|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,104,yA_expected,0.7578596193514894,0.6692581229380745,0.5524165155233116,0.38536221060492903
+1,age=9|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.8670878896615152,0.7305487067650005,0.47421493538463816,0.32175032175032175
+1,age=5|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,154,yA_expected,0.7462711182399056,0.5552742710800164,0.5716897902856157,0.40191834309481367
+1,age=10|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,151,yA_expected,0.8276340758494786,0.6663636573445445,0.5281979783896829,0.3732450331125828
+1,age=7|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.7392083186173265,0.8562666003602557,0.6161530082037538,0.43561643835616437
+1,age=6|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.7731586506991812,0.6004349169189499,0.5335316640372246,0.37120490849465776
+1,age=6|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,119,yA_expected,0.773251579702619,0.6592387378256107,0.7066728386269762,0.5200113943882638
+1,age=8|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.6306276152849567,0.6904117263545492,0.5639760565935062,0.4066751315073463
+1,age=6|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.694786663108976,0.6353032974026025,0.6084024653168354,0.428071491063617
+1,age=7|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,149,yA_expected,0.676703125562703,0.5675253835266308,0.6081988028296753,0.43261382187556685
+1,age=7|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.6645034563047679,0.7213739350206545,0.6346365510931462,0.4547406082289803
+1,age=6|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,157,yA_expected,0.80095752431202,0.7309820526968128,0.6442765087850955,0.4612118242691491
+1,age=7|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,141,yA_expected,0.6638163588536449,0.6507478636611789,0.6629179331306991,0.478419452887538
+1,age=6|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7230026880501268,0.6181682733181061,0.47082963984372433,0.3276863981089333
+1,age=4|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,125,yA_expected,0.7308559799750882,0.5591552728551796,0.5482089093701997,0.37961290322580643
+1,age=9|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,140,yA_expected,0.7648513464398152,0.8412391278653948,0.5524217707900548,0.39938335046248713
+1,age=8|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,130,yA_expected,0.8094818997606156,0.5726522769269033,0.6420325280967922,0.44973166368515205
+2,age=4|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.8213498694815607,0.6555975027885064,0.571194034132957,0.40919328933139876
+2,age=8|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.9175124717616002,0.7673220116907363,0.6535128471849468,0.47766133480419193
+2,age=7|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.8323754217108394,0.6530700350134063,0.6296159222261508,0.45291965858284783
+2,age=5|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,160,yA_expected,0.5977763162553099,0.6212370734975126,0.635430094925583,0.4537735849056604
+2,age=5|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.7542951861921839,0.6645967040663111,0.607737030411449,0.4251453488372093
+2,age=7|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,157,yA_expected,0.6756141998340183,0.6168124134406242,0.5186958490191579,0.3630573248407643
+2,age=10|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.7847553306090604,0.7216888931228276,0.43583955576365446,0.30447330447330445
+2,age=10|moral=respect|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.726803061491286,0.6129698123060008,0.5495553844577872,0.3811136702343856
+2,age=6|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,116,yA_expected,0.5879948227555654,0.553996511658045,0.2304463153038865,0.15532233883058472
+2,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.6381667924117946,0.6981684408859453,0.6198750059634559,0.4455337690631808
+2,age=5|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,142,yA_expected,0.5070493180343867,0.5693596511163719,0.338621222948463,0.2410348616521826
+2,age=9|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,145,yA_expected,0.7798380000127295,0.7790168554523292,0.5311998110533774,0.37547892720306514
+2,age=7|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,143,yA_expected,0.6534452019753957,0.6202619938152427,0.49912997800321746,0.3460061065694868
+2,age=6|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.736202445863277,0.5068172151068553,0.5144958692026645,0.358715162966462
+2,age=4|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,143,yA_expected,0.6814271413226876,0.6278710679401539,0.6071358219245543,0.43071013493548704
+2,age=4|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.716159361747361,0.500776863550778,0.6282346369632897,0.44639674051438755
+2,age=4|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.7814163493546279,0.727584769583662,0.654906383938642,0.47063259321323836
+2,age=6|moral=patience|culture=African,roberta_large_pointwise_yB_expected,136,yA_expected,0.6685856479470967,0.5511727471816179,0.5655646200085874,0.39172113289760346
+2,age=7|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,109,yA_expected,0.9408640578975624,0.6295306770617319,0.6092669817440459,0.43357118586476384
+2,age=4|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.7371859968649552,0.6435807213320054,0.5070619450126091,0.35879806468041764
+2,age=5|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,106,yA_expected,0.8755257567381499,0.5683420623991335,0.6764591782754364,0.49254267744833785
+2,age=7|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,152,yA_expected,0.7127141819094294,0.751823594079712,0.5980357984950689,0.4290693621470896
+2,age=5|moral=respect|culture=European,roberta_large_pointwise_yB_expected,132,yA_expected,0.8055384879802947,0.6605974992376736,0.523122518301305,0.3703446680545917
+2,age=6|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.7149671990758089,0.7875094347640497,0.5238416062960646,0.3710240853097996
+2,age=5|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,124,yA_expected,0.7249394842231912,0.6864190460080022,0.6595688434303698,0.46551271964332547
+2,age=4|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,135,yA_expected,0.5205520172755039,0.5120005472821467,0.12519754170324845,0.08546158098396904
+2,age=5|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,112,yA_expected,0.7231838693121899,0.6580412928132959,0.6277377250828579,0.472007722007722
+2,age=7|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.837525872508298,0.8867604759307992,0.5925248691852107,0.4277226041931924
+2,age=6|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,105,yA_expected,0.6114210550311595,0.6606964355877163,0.6220505909185154,0.4318681318681319
+2,age=8|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,128,yA_expected,0.5193343214387217,0.571930146425131,0.0961133492034426,0.06422244094488189
+2,age=8|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,158,yA_expected,0.7985060930508141,0.6188178421500147,0.6580437782094716,0.4786745142304281
+2,age=6|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.796471421676242,0.6390732485926989,0.6131373162339694,0.43280158481910125
+2,age=9|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,123,yA_expected,0.8163595165196516,0.641655463000114,0.5463878964543215,0.38557910169265625
+2,age=6|moral=respect|culture=European,roberta_large_pointwise_yB_expected,144,yA_expected,0.8031787071462899,0.5589477604417581,0.6094566353187043,0.4257964257964258
+2,age=8|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.5868888859186384,0.6437364453332443,0.6110229553865272,0.4347048300536673
+2,age=10|moral=respect|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6276510387420321,0.5877309532621966,0.5823728546685562,0.4101532567049808
+2,age=8|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.8105597903331814,0.7834677153505611,0.20007149559855222,0.1333541862162444
+2,age=7|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7011172993409899,0.6830894226499726,0.5062798380781253,0.3502591769808526
+2,age=10|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,101,yA_expected,0.8566555084295041,0.8578997973816364,0.7533139196272568,0.5596039603960397
+2,age=6|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,134,yA_expected,0.5723092267891767,0.6544584962578227,0.6676567039489271,0.47592862753899673
+2,age=7|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.5645155733661512,0.49545754123524893,0.21050538451226597,0.14732561776665623
+2,age=4|moral=respect|culture=African,roberta_large_pointwise_yB_expected,104,yA_expected,0.7238036336595538,0.5706559293091866,0.7159714072335431,0.5261389096340553
+2,age=5|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.7552179768800266,0.7433287630500002,0.6318066886121846,0.45294117647058824
+2,age=10|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.45206887729001227,0.4618169189088638,-0.0694847848429331,-0.04723177979355646
+2,age=10|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,151,yA_expected,0.8503008133228842,0.6461457115727948,0.5540536772394563,0.3903752759381898
+2,age=5|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,138,yA_expected,0.5694226406048031,0.5129427525149016,0.3384400064841811,0.23072040622024753
+2,age=6|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.9095314087735018,0.5945629608193362,0.5523220902808061,0.37987940336401144
+2,age=7|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.7372631308732792,0.8675634051231917,0.6333857113936742,0.4497874350495985
+2,age=9|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,163,yA_expected,0.6703903708365204,0.7280793971125037,0.4440481930381676,0.3112171476179656
+2,age=9|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7438777644685639,0.7522697162207516,0.579824835783547,0.4175789802940256
+2,age=10|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,137,yA_expected,0.7444217155646755,0.6927666861277204,0.5747195101461721,0.40639759553456417
+2,age=8|moral=respect|culture=European,roberta_large_pointwise_yB_expected,125,yA_expected,0.7974515592775006,0.6125176986843627,0.6172964669738863,0.42554838709677417
+2,age=6|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,108,yA_expected,0.8875107477925194,0.7574175043922694,0.43549877580572943,0.29941156109380407
+2,age=6|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,153,yA_expected,0.8453576728777499,0.6293348379228968,0.5147728948038546,0.3531131750945992
+2,age=4|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.7694220032924345,0.6810008271576034,0.5477296896651735,0.3886887306242145
+2,age=4|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.739421904417239,0.8799924337960896,0.502665896262056,0.3546308724832215
+2,age=6|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.7734737665054667,0.5738307037962848,0.5341663831740067,0.3739553580873797
+2,age=4|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.6938195874792857,0.7221025546567273,0.688700831148051,0.4892170022371365
+2,age=8|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.6077356498466749,0.6226605361364466,0.4940395428986033,0.3460910575004535
+2,age=9|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.6597701581174708,0.6773055837354012,0.6071802021610317,0.42869757174392936
+2,age=7|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,117,yA_expected,0.8344456920765515,0.6559125260543761,0.2281691618336855,0.15590922487474212
+2,age=9|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,146,yA_expected,0.7962305073320417,0.7375495520808983,0.4824597765416984,0.3403873405762872
+2,age=4|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,141,yA_expected,0.8001209020053062,0.6004709986303579,0.7189220428956719,0.5229989868287741
+2,age=6|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.6936224486059266,0.6827891916782315,0.6301550952192864,0.44525547445255476
+2,age=7|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.895517739762216,0.6188786269203007,0.5709671999551963,0.39394589952769427
+2,age=9|moral=respect|culture=African,roberta_large_pointwise_yB_expected,124,yA_expected,0.6984726759115488,0.7292391320025079,0.3165003933910307,0.20613690007867821
+2,age=6|moral=respect|culture=African,roberta_large_pointwise_yB_expected,140,yA_expected,0.7647039787383063,0.758650905794993,0.5485206971201154,0.4014388489208633
+2,age=5|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,131,yA_expected,0.82620949534857,0.6164047064893179,0.5072332247904767,0.34398120963006457
+2,age=4|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,125,yA_expected,0.7533837947162493,0.5587496392042056,0.567963133640553,0.3984516129032258
+2,age=5|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,123,yA_expected,0.9300056715816133,0.794651499821465,0.669319369026583,0.48234039717446353
+3,age=4|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.7412121777001586,0.5716059529513199,0.5645616853670545,0.40816326530612246
+3,age=9|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.600562478710152,0.6863466047874894,0.4360367481900649,0.30278696268304206
+3,age=8|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,137,yA_expected,0.5900315169232914,0.7054651393005614,0.5359503052252319,0.37247745813653926
+3,age=4|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.810047568679169,0.9047463549052109,0.7493143129150956,0.5566116857701985
+3,age=10|moral=respect|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.7642572936713629,0.6123740982306812,0.5133979466064814,0.3607912207018019
+3,age=6|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,116,yA_expected,0.5771019997121457,0.5649577595636355,0.16891554222888555,0.11394302848575712
+3,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.6923106144560603,0.7268724707609917,0.5951338199513382,0.42200435729847496
+3,age=8|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.6584549265707665,0.802523355493328,0.6296502418767926,0.44984802431610943
+3,age=5|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,145,yA_expected,0.8424748325413064,0.6802970954360544,0.5388757675956543,0.38524904214559386
+3,age=8|moral=respect|culture=African,roberta_large_pointwise_yB_expected,137,yA_expected,0.5671000770891086,0.6134914112673777,0.46554781861967254,0.31987977672820955
+3,age=5|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,146,yA_expected,0.7308272489616635,0.619863007875537,0.5675705898797875,0.40255077940481815
+3,age=5|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,142,yA_expected,0.545529666125965,0.5713653671793254,0.24640657514496292,0.1691139746279093
+3,age=6|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,134,yA_expected,0.6624220328190151,0.4970293761111287,0.0877043354655295,0.05487599596004938
+3,age=4|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.7231772586009172,0.5117925031704103,0.5398788554050444,0.37522479636094364
+3,age=9|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,122,yA_expected,0.6325853588802627,0.6790531590698926,0.5234038615958575,0.3686492345210676
+3,age=4|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.7770681971660113,0.7238778715287707,0.609522735329187,0.4268956849602011
+3,age=5|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,154,yA_expected,0.6283257045999724,0.6408775220636138,0.595202773191388,0.4265342500636618
+3,age=9|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,161,yA_expected,0.7563113745602874,0.6208442445124854,0.43346560846560844,0.30559006211180123
+3,age=6|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.7666554707797919,0.7338290772077046,0.5965268832593865,0.428322440087146
+3,age=7|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,145,yA_expected,0.7638485067034156,0.8465112576670637,0.670177924736262,0.47911877394636015
+3,age=4|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,131,yA_expected,0.5817646222976062,0.5113990779707639,0.19793412694176052,0.13728714034057546
+3,age=5|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,124,yA_expected,0.6573882589439911,0.6804148630894257,0.668324154209284,0.47023341201153945
+3,age=6|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.8558233195982347,0.7033674704425411,0.38861934888775745,0.27218872315666987
+3,age=10|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,142,yA_expected,0.6913267406343258,0.7757406940206517,0.5544844726744637,0.39506542802916794
+3,age=8|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,140,yA_expected,0.7725505229952926,0.7450857565906539,0.6385559029979664,0.45940390544707094
+3,age=7|moral=respect|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.6881997200576964,0.6282893917368213,0.5159804498086433,0.3632498819083609
+3,age=8|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.6874383855440702,0.5302597558593493,0.6234281124022255,0.4379481522338665
+3,age=9|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.7151280091413014,0.6048436321120501,0.4917497928030156,0.34941288479847665
+3,age=8|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,148,yA_expected,0.8120458245919078,0.8315248665651891,0.5476702562033339,0.39437396580253725
+3,age=9|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.8802342311553951,0.7770928075818117,0.5764883230347042,0.40790038643194504
+3,age=7|moral=respect|culture=European,roberta_large_pointwise_yB_expected,122,yA_expected,0.8597021218099182,0.6540216519148186,0.5383730805198582,0.3724427584338166
+3,age=5|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.8275752277723145,0.6385252091452408,0.3987354216006077,0.27473673235324786
+3,age=8|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,158,yA_expected,0.7425971985913089,0.563125001201573,0.6579555463605123,0.4751269854067564
+3,age=9|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,123,yA_expected,0.8092931200238699,0.6340507201134522,0.5010963356592847,0.35145941623350657
+3,age=6|moral=respect|culture=European,roberta_large_pointwise_yB_expected,144,yA_expected,0.7849314906927709,0.5658897505015684,0.5870589180934008,0.41064491064491065
+3,age=5|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,122,yA_expected,0.7357123408273462,0.5478060816990719,0.2609633832417446,0.1805988348462268
+3,age=6|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.7551985833600582,0.75379094081537,0.4373741073063541,0.29798228346456695
+3,age=6|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,162,yA_expected,0.7499605120390891,0.737310718194519,0.603480857681978,0.43347902768192625
+3,age=9|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,119,yA_expected,0.6288056322746417,0.7287097534323599,0.4856430707876371,0.32288847742486826
+3,age=8|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.6801758417062622,0.7212682479563177,0.52743855282457,0.3762863534675615
+3,age=7|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,124,yA_expected,0.7625998841199583,0.5626208875881923,0.2558804091266719,0.17361657487542617
+3,age=9|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,132,yA_expected,0.8151105042223414,0.6267737216357266,0.2817905276724079,0.1919962988665279
+3,age=7|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.5152680125261137,0.522929428236962,0.1865409535725457,0.13043478260869565
+3,age=4|moral=respect|culture=African,roberta_large_pointwise_yB_expected,104,yA_expected,0.6847720912075377,0.5604304618621258,0.6842953163341513,0.49253174010455564
+3,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.7618724746679313,0.6777317811420566,0.7746190697983898,0.5777496839443742
+3,age=5|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,104,yA_expected,0.69382274744693,0.5732101648208495,0.5710566815785851,0.40388385947658434
+3,age=5|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,138,yA_expected,0.5457036457642298,0.5039047906636674,0.3521481133087817,0.2345287210409394
+3,age=8|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.6579587867568628,0.737235778545563,0.49986408808089877,0.3558523173605656
+3,age=7|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.8390344965144294,0.8680296700782832,0.6579333481148718,0.4700047236655645
+3,age=9|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.6943360978267403,0.759751041380866,0.5814379552258814,0.4144510478573663
+3,age=10|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,161,yA_expected,0.7546917683382027,0.8904052184392588,0.5178513917644353,0.3652173913043478
+3,age=10|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,153,yA_expected,0.7709728346384832,0.8879873628650479,0.5407804270033372,0.3821809425524596
+3,age=5|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,145,yA_expected,0.5014252141370626,0.5651958790503435,-0.00018501023460872304,0.00019157088122605365
+3,age=10|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,140,yA_expected,0.6280923902429391,0.7026775201142001,0.6185126063283112,0.43535457348406986
+3,age=6|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,153,yA_expected,0.7973039015067331,0.6078040947313677,0.5834975138380711,0.4072927416580667
+3,age=10|moral=patience|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.9457213881216984,0.7018866349740531,0.5049556039078607,0.3585105257590183
+3,age=10|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,131,yA_expected,0.9215160055875695,0.7238215437604135,0.5822078684674105,0.4153846153846154
+3,age=8|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.7131949760487727,0.7341195645874947,0.5636350444404136,0.4017776165427172
+3,age=8|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,146,yA_expected,0.7817485522924055,0.7110201013483328,0.5099611502607656,0.3589041095890411
+3,age=10|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,142,yA_expected,0.6563798928635345,0.6098774230550218,0.5848832019044785,0.4164419138947158
+3,age=4|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.8067359554846865,0.733224505453972,0.5633767876652127,0.39410915881504116
+3,age=8|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,133,yA_expected,0.6667397306419993,0.7239771313126513,0.6018251191071301,0.42173615857826385
+3,age=8|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,132,yA_expected,0.8609609172033585,0.6946619381324192,0.49183680923335404,0.34513069627573445
+3,age=6|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7623453603271216,0.589210083793039,0.49609693394126336,0.3390458055643711
+3,age=8|moral=patience|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.8364402231254923,0.6130640059169792,0.6136775043774085,0.42710056995771284
+3,age=5|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,142,yA_expected,0.5583038595060409,0.5861976493055275,0.635818781158907,0.44920587353910696
+3,age=7|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.6435427308001733,0.7129884442189305,0.6331944994469404,0.44973166368515205
+3,age=10|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,126,yA_expected,0.5605642150349173,0.5868015850540251,0.09084364454443195,0.051936507936507934
+3,age=4|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.5884215542626157,0.526055713327628,0.0953805514589206,0.05775010734220696
+3,age=4|moral=patience|culture=European,roberta_large_pointwise_yB_expected,164,yA_expected,0.812670822591342,0.6054301883300108,0.7319304068668127,0.5397276672153225
+4,age=8|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.9378473999173736,0.7656607404004996,0.6088614295709214,0.44419930134215846
+4,age=9|moral=patience|culture=European,roberta_large_pointwise_yB_expected,152,yA_expected,0.6831515503382144,0.5609237383662194,0.6066368687593545,0.4264552108748693
+4,age=9|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,117,yA_expected,0.6526506877352284,0.6806617349006637,0.5399001933192465,0.3719422340111995
+4,age=5|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,149,yA_expected,0.49730175502906043,0.46808893923707356,0.08100126972610194,0.04716125521494649
+4,age=9|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,132,yA_expected,0.9280985647578632,0.8763877030521479,0.6918962917355846,0.4950266018968309
+4,age=7|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.8752156673733589,0.9244496016450743,0.5092512521940151,0.3578520770010132
+4,age=7|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,131,yA_expected,0.7017901625222926,0.7845961675784031,0.7301553408423638,0.5445684086905461
+4,age=5|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,146,yA_expected,0.7732698675035415,0.7918680754495376,0.6377044913383397,0.4601794992914502
+4,age=6|moral=patience|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.9192674778167774,0.6693328246430309,0.6499081563597693,0.4671135316296607
+4,age=4|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,130,yA_expected,0.7229167122656579,0.6499677946128727,0.577981400811154,0.424448419797257
+4,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.5834091446475245,0.6715001361038462,0.5936501121129717,0.41982570806100217
+4,age=8|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.6167936742219272,0.6700599231540066,0.14184146177187099,0.10081455622553687
+4,age=8|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.770477538422729,0.5946828392189638,0.6771243113411524,0.4833386226594732
+4,age=4|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.5830131648909118,0.6759288692816288,0.6759235945797473,0.4896653543307087
+4,age=4|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,120,yA_expected,0.8378510355157457,0.643581355164617,0.6639974998263768,0.4689075630252101
+4,age=4|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,143,yA_expected,0.6715974588608106,0.625267396416677,0.5816548474999179,0.4074657736629568
+4,age=6|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.8728944857618794,0.6318489598597461,0.7084109438948148,0.5170506912442396
+4,age=6|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,142,yA_expected,0.6661218119153811,0.5891923914447206,0.16145945753377577,0.10558385775646789
+4,age=5|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,154,yA_expected,0.6666125387632196,0.6482183384938214,0.6028520499108735,0.4389270859859095
+4,age=6|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.5974305397860045,0.5616721865377184,0.1875138416718228,0.12535702951443986
+4,age=7|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,109,yA_expected,0.8866966331876225,0.621586000323003,0.6546659253081272,0.4780835881753313
+4,age=6|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.8826094330512279,0.5452706013176305,0.6562809192226557,0.4746672391584371
+4,age=6|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,132,yA_expected,0.8057659114889218,0.6045355172356134,0.5647028744658315,0.4073560027758501
+4,age=10|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.6760673377007379,0.6544237205629969,0.19187908586349547,0.13193065340242724
+4,age=5|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,116,yA_expected,0.5451444716952264,0.502146964186491,0.3968861722984662,0.2737631184407796
+4,age=5|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,112,yA_expected,0.6662594087387161,0.657631622757951,0.6033501896333755,0.4446589446589447
+4,age=6|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,144,yA_expected,0.7656779678963633,0.6772845200361839,0.3937022747367575,0.2762237762237762
+4,age=7|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,155,yA_expected,0.7736667832600569,0.6052911301843062,0.6571299668073861,0.4711353162966066
+4,age=7|moral=respect|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.6586958948174486,0.546157717494998,0.5210203117619272,0.36551724137931035
+4,age=8|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,138,yA_expected,0.6613950548080562,0.6941872347767397,0.5901814885761971,0.42769491166825346
+4,age=6|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,119,yA_expected,0.6803593954746735,0.5779706374037438,0.17323743056544652,0.11522575131747614
+4,age=8|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,148,yA_expected,0.7729347362022609,0.8132643048000883,0.5676527095510796,0.40706012134583563
+4,age=8|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,122,yA_expected,0.7950170276134901,0.736835255972141,0.7563751358960548,0.564557648015174
+4,age=6|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7709615775653594,0.93781036229167,0.6084364806291612,0.4292565947242206
+4,age=6|moral=respect|culture=European,roberta_large_pointwise_yB_expected,144,yA_expected,0.8457416574655459,0.5637832826956447,0.6028052407362752,0.4224941724941725
+4,age=5|moral=respect|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.6216434596622434,0.6815553839645926,0.4601345523546662,0.3183940242763772
+4,age=5|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,122,yA_expected,0.7030922495111009,0.5398894955772447,0.31380175202646216,0.21365668608589622
+4,age=6|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.6371978419653513,0.7284251733879721,0.4482787726021637,0.301814826778453
+4,age=9|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,118,yA_expected,0.5024491535928023,0.5946827002214093,0.17894667645415402,0.12414892075909024
+4,age=8|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.8242641990223033,0.787545373143209,0.2436078466419411,0.16796997184860807
+4,age=10|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,134,yA_expected,0.717790276269492,0.7868533376409192,0.38280527188618313,0.265177870048255
+4,age=9|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.6595443960958353,0.6612966115897703,0.6386627906976744,0.47601744186046513
+4,age=9|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.6926048750762557,0.6318923368657999,0.035788015550292686,0.02429360859138776
+4,age=7|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.5831475244060269,0.5471333246077063,0.11901782921488896,0.0816390365968095
+4,age=6|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.8673470528650244,0.924037062651584,0.6207122093023256,0.44597868217054265
+4,age=5|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.7268295423432991,0.8294596246162754,0.5860932207432852,0.41546840958605663
+4,age=9|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.8813656129631877,0.6809649251114179,0.477250432188112,0.3270821842250414
+4,age=8|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,132,yA_expected,0.5923168769376047,0.49128227144968484,0.26737384752651927,0.17742308582003238
+4,age=5|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.671048385977304,0.7027106496232406,0.5796402071211232,0.41397533763945976
+4,age=7|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,129,yA_expected,0.7199145034411908,0.5691420520164012,0.7366223166368515,0.532218992248062
+4,age=10|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,135,yA_expected,0.6859263949002712,0.7121781046067491,0.5501463271875915,0.3806522940851299
+4,age=7|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,142,yA_expected,0.9024766118829809,0.7724652834610091,0.4816247582205029,0.34072520227749475
+4,age=10|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,140,yA_expected,0.6589248554309922,0.7133869380631593,0.631510354026809,0.449743062692703
+4,age=10|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,103,yA_expected,0.679452723421384,0.7998102770496327,0.582732943812327,0.4140491147915477
+4,age=10|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.5861198786773647,0.6641536277043583,0.4340537188111254,0.30152505446623096
+4,age=4|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.6991653727557853,0.7002872550693895,0.6930743588603938,0.49029082774049215
+4,age=8|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.7329823193600943,0.74615921604639,0.5660402684563758,0.40812624705242156
+4,age=4|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,108,yA_expected,0.6855381728668121,0.6382288509551122,0.7357264664132537,0.5375562478366217
+4,age=6|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,126,yA_expected,0.7604330841413642,0.7484081905322025,0.7260622422197225,0.5428571428571428
+4,age=8|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.6049839904499105,0.6358057210958163,0.49248684926537273,0.3464538363867223
+4,age=9|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.6389651814460419,0.6396519541536948,0.594782672344834,0.4189147427810488
+4,age=7|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,149,yA_expected,0.6790646390484285,0.6207568352370426,0.618940685652095,0.44204607291855613
+4,age=8|moral=patience|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.8512986113528173,0.6126915589344694,0.6185861248181478,0.4315131457988601
+4,age=6|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,157,yA_expected,0.7643224160708574,0.6598996122694448,0.6054459529022135,0.43197778866568676
+4,age=9|moral=respect|culture=African,roberta_large_pointwise_yB_expected,124,yA_expected,0.7473295990205983,0.6510330592314543,0.251933910306845,0.17597692105953316
+4,age=6|moral=respect|culture=African,roberta_large_pointwise_yB_expected,140,yA_expected,0.762550192100589,0.7434381762201642,0.5488661957971617,0.3971223021582734
+4,age=5|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,123,yA_expected,0.7285764606342846,0.6086783523519158,0.6862480814125963,0.5049980007996802
+4,age=4|moral=patience|culture=European,roberta_large_pointwise_yB_expected,164,yA_expected,0.7846993140844756,0.6002941331209821,0.7243208684178308,0.5279066287595391
+4,age=9|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,147,yA_expected,0.5885274026192134,0.6656188195960613,0.4891371384911951,0.334746750281858
+4,age=8|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,130,yA_expected,0.767152697098056,0.5231462697550865,0.6259678542653867,0.437567084078712
+5,age=4|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,150,yA_expected,0.7216037730091246,0.7038109698178211,0.6446028712387217,0.46917225950783
+5,age=9|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,132,yA_expected,0.8910096416522804,0.8940859993466322,0.623940141818808,0.45038167938931295
+5,age=10|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,140,yA_expected,0.6373342277468234,0.7076767915823476,0.15449476285233213,0.10585817060637205
+5,age=8|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,125,yA_expected,0.5688326502991021,0.5997414648502224,0.46087250384024575,0.3230967741935484
+5,age=5|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,139,yA_expected,0.9077917301138182,0.6465834006234352,0.6582286965458689,0.4682514857679074
+5,age=4|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.6272614454125187,0.8058130641247163,0.6849277289590401,0.4962258876153201
+5,age=7|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,140,yA_expected,0.6309096493486064,0.5528409886534557,0.5151385274758916,0.3699897225077081
+5,age=6|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,116,yA_expected,0.5437974947489028,0.5482646458311488,0.2639372621381617,0.17361319340329834
+5,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.6486390842566417,0.7759835418790229,0.5553504126711512,0.3832244008714597
+5,age=8|moral=respect|culture=African,roberta_large_pointwise_yB_expected,137,yA_expected,0.5371328355778658,0.5773231611846691,0.41788787873130845,0.2780163160154573
+5,age=10|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,144,yA_expected,0.6159877994778207,0.7725349600320764,0.4262800417972832,0.29234654234654234
+5,age=5|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,142,yA_expected,0.48030105896182074,0.5541718263924276,0.3090523501071898,0.21106782539206873
+5,age=6|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,134,yA_expected,0.658667396202359,0.539089410328818,0.07709073679222933,0.0485916283245427
+5,age=10|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.7786713583385665,0.6166161087289043,0.2755334440980454,0.18699012451696007
+5,age=8|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.7589670491471835,0.6324709024659471,0.4193306224585549,0.28870816390365966
+5,age=5|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.8496456345195265,0.6273181602853611,0.43278175313059036,0.29626937984496127
+5,age=4|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,147,yA_expected,0.8168372285432957,0.6180566984090797,0.5986407150790712,0.4224210232038021
+5,age=4|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.6919136174126984,0.5082395307182684,0.5804463720972259,0.4080298786181139
+5,age=4|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.7801758511540869,0.7234818166265456,0.6260159195643067,0.4426476749057394
+5,age=10|moral=patience|culture=African,roberta_large_pointwise_yB_expected,123,yA_expected,0.7010490778258619,0.5779046869075866,0.4691994170073906,0.3282686925229908
+5,age=10|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,131,yA_expected,0.7115645960343189,0.7236864276443156,0.42830299471520844,0.29677040516735176
+5,age=8|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.8161074366750503,0.7899913484804226,0.5568290527844306,0.39870940442187663
+5,age=4|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.701383690773113,0.5667187512640831,0.5064935064935064,0.35506323741617857
+5,age=6|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,134,yA_expected,0.7743301258264867,0.6753275887776126,0.49712091173206646,0.3509145999326675
+5,age=7|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,152,yA_expected,0.6317988692478795,0.7400249360096232,0.5969286285444816,0.4271523178807947
+5,age=6|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.6799049495657262,0.7499200226206009,0.4213454654490129,0.29325243610957896
+5,age=7|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,145,yA_expected,0.798000394189457,0.8453988285977608,0.6225240119666194,0.42873563218390803
+5,age=9|moral=respect|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.6567069576432859,0.6379277782719018,0.5920947786359931,0.41055749497514016
+5,age=5|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,112,yA_expected,0.7902727844307006,0.7144961367996719,0.5966873953599617,0.43822393822393824
+5,age=6|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.912595842976671,0.7133178282666043,0.43684430430901233,0.3100602983179943
+5,age=10|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,142,yA_expected,0.6680762258387722,0.8150561746435603,0.4897514831587352,0.3479172909799221
+5,age=10|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,137,yA_expected,0.7036634953540606,0.7358922340766267,0.4660518602871171,0.32202662086732503
+5,age=10|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,143,yA_expected,0.8254794118468237,0.591401390844327,0.4973242719721593,0.34856692603171474
+5,age=7|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.8279172990083449,0.8438604210780641,0.534918718220426,0.37781173075290725
+5,age=8|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,148,yA_expected,0.7944759103221717,0.8219151862814322,0.5354357233551864,0.3783783783783784
+5,age=8|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,122,yA_expected,0.7825659722389661,0.7317595509511524,0.7641141890351297,0.5683511719279231
+5,age=9|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,123,yA_expected,0.7154135636951547,0.6734915234614692,0.6036788569722815,0.4190603141595483
+5,age=5|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,122,yA_expected,0.7315531229305625,0.5514275547778955,0.20729228969569197,0.1350765478932394
+5,age=4|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,145,yA_expected,0.6828082754486081,0.673169816168786,0.6571799716580066,0.4729885057471264
+5,age=8|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,143,yA_expected,0.5196904278345728,0.5537388353561822,0.14874093043107128,0.10056141042056535
+5,age=8|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,139,yA_expected,0.6406118074473165,0.5620012321981245,0.17945395236605746,0.12188510061516004
+5,age=7|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,150,yA_expected,0.7645650725958393,0.736240236639927,0.4641646295390906,0.33172259507829976
+5,age=4|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.732374194777642,0.6839213436168602,0.5128021806157559,0.35460327390261703
+5,age=10|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,101,yA_expected,0.8664673863710612,0.819448259791382,0.7102737332556786,0.5251485148514852
+5,age=7|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,139,yA_expected,0.8719645986446706,0.7674331277003249,0.6039411948701908,0.4342612866228756
+5,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.822278515094635,0.6970510249589141,0.7234513274336283,0.5344500632111252
+5,age=5|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,104,yA_expected,0.5520909369859426,0.5478985456535314,0.4916355489171023,0.342419716206124
+5,age=10|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,151,yA_expected,0.819343516608823,0.6643180369699476,0.5245939351690484,0.370242825607064
+5,age=8|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.7085500474860925,0.7434313083789637,0.5147769922318234,0.3684210526315789
+5,age=5|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.725320697033243,0.6151120353367602,0.5381151349840195,0.3741496598639456
+5,age=10|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,153,yA_expected,0.6711179523990563,0.7299753309681971,0.5600163510380228,0.39920880632954936
+5,age=5|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,143,yA_expected,0.4950927595998711,0.4565706064358135,0.08889408713352376,0.05742145178764897
+5,age=8|moral=respect|culture=European,roberta_large_pointwise_yB_expected,125,yA_expected,0.7707647266661608,0.5775601776559042,0.6359754224270353,0.44025806451612903
+5,age=10|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,103,yA_expected,0.6529357693090845,0.6874110249649442,0.5204059218907877,0.36303064915286504
+5,age=4|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.5852403655038187,0.5672127627316125,0.4389496768299675,0.30587498352692055
+5,age=5|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,136,yA_expected,0.7937591984375724,0.6270248557862453,0.572935451552884,0.40675381263616556
+5,age=4|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.701861974192726,0.7005209354986506,0.6726183385928264,0.48456375838926175
+5,age=8|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.7437548693388121,0.7726989079127803,0.5647415200435335,0.4010520587701796
+5,age=5|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,111,yA_expected,0.8818765704116021,0.7012070870085834,0.5615566865566866,0.4067158067158067
+5,age=9|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.6819730608114071,0.6940697190080716,0.5924435226846644,0.41882264716910383
+5,age=4|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,108,yA_expected,0.68610773915787,0.6384683633126731,0.7347833128507054,0.5392869505019038
+5,age=8|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,133,yA_expected,0.7263597718756916,0.7848399641306938,0.580610277389539,0.41102756892230574
+5,age=6|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.774750758208491,0.5945783022726641,0.5240382749338454,0.3553369300751084
+5,age=9|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.6471847303164281,0.6883346389693747,0.5505681422098292,0.3806622516556291
+5,age=7|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.6251645251837947,0.6935171240435276,0.5782435920195551,0.3994036970781157
+5,age=7|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.8246991084603544,0.542474890380681,0.5610263781805963,0.38256762559038215
+5,age=4|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,125,yA_expected,0.7430301715781221,0.5710794516512534,0.4028878648233487,0.27741935483870966
+5,age=5|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,123,yA_expected,0.808336613525175,0.6808392292066598,0.6704801950187667,0.49433559909369584
+5,age=9|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,147,yA_expected,0.5996524421692424,0.719892164022993,0.4878125259729956,0.3318423259714845
+5,age=4|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,136,yA_expected,0.7579047160232716,0.5952389817546665,0.341796670006202,0.234640522875817
+6,age=9|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.676762001648349,0.6140094053266137,0.4705423684296924,0.3215798286220821
+6,age=7|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,153,yA_expected,0.767537201778428,0.5818611068272315,0.5405559352927773,0.37530099759201924
+6,age=9|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,146,yA_expected,0.647926970469706,0.7623143753554511,0.4305380158676602,0.2956069910250354
+6,age=4|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.7441960395502439,0.7935004480231727,0.6405591924555942,0.4625984251968504
+6,age=9|moral=patience|culture=European,roberta_large_pointwise_yB_expected,152,yA_expected,0.7891461155164127,0.6260065359787855,0.6304751946090391,0.4487626350644824
+6,age=9|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,117,yA_expected,0.6784771890696636,0.6818865181938817,0.5700744803608626,0.39404656646035957
+6,age=5|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,160,yA_expected,0.6051606947975678,0.6470775699308025,0.6166852220789875,0.43522012578616354
+6,age=6|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,134,yA_expected,0.9017759715201851,0.693656166836757,0.5251461988304094,0.380316462798788
+6,age=5|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,118,yA_expected,0.6653783009172676,0.6785911979214194,0.6326478440137463,0.45357091119802984
+6,age=7|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,157,yA_expected,0.6929568516581972,0.6371102240978519,0.507457873095219,0.34590886820186184
+6,age=9|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7981055607439924,0.8345946017242977,0.4151728553137004,0.293016842312617
+6,age=10|moral=respect|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.7932912352532806,0.6645173988317037,0.5563427521553362,0.3995393578105948
+6,age=5|moral=patience|culture=European,roberta_large_pointwise_yB_expected,162,yA_expected,0.7203419735016843,0.5101825334386405,0.5848571964869644,0.4048002453799555
+6,age=6|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.6411473367306758,0.7227424378197234,0.6047986762272477,0.4291305563321219
+6,age=4|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.5845810940379804,0.684845689428282,0.687849066105109,0.5054133858267716
+6,age=4|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,113,yA_expected,0.7423601412145728,0.6202102166477342,0.5260995408876172,0.36852085967130216
+6,age=8|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,131,yA_expected,0.5461221561066356,0.5193204659316615,-0.02258047296215235,-0.017733411626541396
+6,age=4|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6609721581950354,0.48704950711905015,0.6426940639269406,0.4494252873563218
+6,age=7|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.7240627951483845,0.7193302092160828,0.6105788483479286,0.4410586152269127
+6,age=6|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.8245404079980371,0.6530740747837143,0.49010247462234774,0.343221539914974
+6,age=4|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,120,yA_expected,0.7437124786539612,0.5987502987966006,0.6724425307313008,0.47507002801120446
+6,age=4|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.7130604177711669,0.5104077736915776,0.5483128571722121,0.3855918755950492
+6,age=4|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,156,yA_expected,0.648782913478485,0.5139737293791481,0.6146702280665708,0.43407775020678246
+6,age=7|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.7537286376166524,0.6081576117154749,0.5662226386296837,0.4013605442176871
+6,age=4|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.787389482653313,0.6613645540208175,0.4874721736201812,0.3460656990068755
+6,age=4|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,131,yA_expected,0.5951205278666453,0.5211065147915832,0.18912614103453798,0.13282442748091602
+6,age=9|moral=respect|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.640316340908404,0.6218696632587812,0.6005698773256862,0.41584682111498994
+6,age=6|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.8824160601462266,0.7046976206841769,0.4123596711332933,0.2897492859409711
+6,age=10|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,142,yA_expected,0.7112213327343136,0.8192888294355309,0.541529492383553,0.38607531715113375
+6,age=9|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.7619927001298212,0.6985646995666681,0.22419586685832696,0.15113782739373122
+6,age=7|moral=respect|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.6958887840450323,0.6371733672412775,0.4594545612293099,0.31469059990552667
+6,age=8|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.6990041377148376,0.5315435796963165,0.6106679203515253,0.425997425997426
+6,age=6|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,105,yA_expected,0.6009882694137136,0.6577356787899648,0.5846983205473771,0.4076923076923077
+6,age=9|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.6967111286710032,0.5963744867481282,0.48210114865898457,0.34010367079234105
+6,age=10|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.8598776751470635,0.8420079270640554,0.6783600793027345,0.49119066322522725
+6,age=4|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,122,yA_expected,0.7413472181018188,0.6953813440972437,0.5192732824225682,0.36431377862078307
+6,age=10|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,129,yA_expected,0.6974449497600554,0.6946483403925628,0.2827929338103757,0.18846899224806202
+6,age=5|moral=respect|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.7644198936122352,0.697651884527173,0.4881720430107527,0.34419828537475594
+6,age=6|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.6661008761294741,0.7387960072557597,0.5169833032336428,0.3610494023061462
+6,age=7|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.7637131781851145,0.7016444224838335,0.39364038870680235,0.27510398098633393
+6,age=4|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,117,yA_expected,0.5839122320821276,0.4772854209523067,0.24920948912766563,0.1650456822870616
+6,age=9|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,136,yA_expected,0.6963830696919677,0.6332336200436289,0.3309908878393206,0.22418300653594772
+6,age=9|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,119,yA_expected,0.641462490524364,0.7332712177741039,0.5288491667853582,0.34881071072496794
+6,age=9|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,132,yA_expected,0.7809799545782086,0.5952814910554298,0.2428138354213083,0.16516308119361556
+6,age=6|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,123,yA_expected,0.835753213604774,0.7201724161745154,0.4942861565051399,0.3426629348260696
+6,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.7603574805584187,0.6626270167540997,0.7552565040920887,0.5603666245259166
+6,age=5|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.7823923277445286,0.7442060376567624,0.6064548447116073,0.4335511982570806
+6,age=9|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.843709508669508,0.6787135755758262,0.3927895845441387,0.265857694429123
+6,age=10|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.7550743427866812,0.7670500366433083,0.47454743333937965,0.3348449120261201
+6,age=4|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,133,yA_expected,0.7693045697953909,0.601838596366799,0.5000969180073658,0.3465481886534518
+6,age=10|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,135,yA_expected,0.7047109814021716,0.7142664591960375,0.4802311969563945,0.33244886677722496
+6,age=10|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,140,yA_expected,0.6891615544255307,0.714072433572731,0.6390238569023201,0.4528263103802672
+6,age=10|moral=patience|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.8508752980278705,0.7231018085325666,0.48834788088285325,0.34750872738813077
+6,age=4|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.7772218000157435,0.6696585077783624,0.49077051980277786,0.3447842480100545
+6,age=4|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.4890806488889209,0.5376812668312461,0.45900528912396105,0.3225950782997763
+6,age=6|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.8651260231299716,0.6587627924139392,0.5161522321336838,0.36549243626362
+6,age=4|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.7205059984648742,0.7140482107610857,0.7182808124805546,0.5149888143176734
+6,age=8|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.8013534905613021,0.9219103140882677,0.5757736259749683,0.41012153092690007
+6,age=5|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,111,yA_expected,0.8119030422696131,0.6958277599594276,0.556949806949807,0.40016380016380015
+6,age=4|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,108,yA_expected,0.68610773915787,0.6384683633126731,0.7299818038050054,0.5282104534440983
+6,age=6|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,126,yA_expected,0.7378637571899334,0.7545962517355209,0.7393745781777278,0.5555555555555556
+6,age=8|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,149,yA_expected,0.5943381272420586,0.6273708952305973,0.5074913840014511,0.3633230545982224
+6,age=9|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.5890177067823378,0.6686650228861948,0.5009118541033435,0.35602836879432626
+6,age=9|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.6293242180453089,0.6643728967600384,0.6062809341233879,0.42693156732891835
+6,age=7|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,134,yA_expected,0.7299636826474052,0.5779914448688577,0.5798900235663786,0.410840534171249
+6,age=6|moral=respect|culture=African,roberta_large_pointwise_yB_expected,140,yA_expected,0.8206721247213735,0.7852078229103259,0.4708447223983731,0.3356628982528263
+6,age=9|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,151,yA_expected,0.698016502586203,0.695587161023154,0.5220250958522133,0.3690066225165563
+6,age=4|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,111,yA_expected,0.8171516117281357,0.5480034710862032,0.6753597753597753,0.49385749385749383
+6,age=4|moral=patience|culture=European,roberta_large_pointwise_yB_expected,164,yA_expected,0.8166660169296616,0.593938671316574,0.7134357188524478,0.5190782582672453
+6,age=7|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,152,yA_expected,0.7573958730673982,0.7001309873929598,0.5666181425515483,0.4001394214011851
+7,age=7|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,126,yA_expected,0.758955031254295,0.6748618168059417,0.49157555305586803,0.35314285714285715
+7,age=4|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,148,yA_expected,0.7810191717187954,0.6439937350940612,0.5059988080122308,0.356683213826071
+7,age=4|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.8001924591235035,0.7956965313187658,0.6495090184947812,0.4734251968503937
+7,age=9|moral=patience|culture=African,roberta_large_pointwise_yB_expected,159,yA_expected,0.6371886605138414,0.6247023222470179,0.5738864342010986,0.3986147599713399
+7,age=5|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,149,yA_expected,0.489977602975276,0.4825574063437843,0.0988318519862144,0.06294213676764013
+7,age=5|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,160,yA_expected,0.6192745528861122,0.625166837431519,0.6189353099730458,0.4410377358490566
+7,age=9|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,116,yA_expected,0.6945436503643655,0.6562670891379194,0.5127205627955254,0.35442278860569715
+7,age=7|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,131,yA_expected,0.6796935601519637,0.7839273689345766,0.6864677307425399,0.5079271873165003
+7,age=8|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,137,yA_expected,0.6566715469680326,0.713205965055425,0.5562519834973024,0.3928724774581365
+7,age=7|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,157,yA_expected,0.7759035493008161,0.6737155948858994,0.47936913525883934,0.333823289237302
+7,age=10|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.6850105780769382,0.6431033512268104,0.41343059217822026,0.28596893302775656
+7,age=4|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.6780608033892571,0.7643224642339314,0.6888076222714188,0.5016307893020222
+7,age=4|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.6630069885074621,0.7989247646114765,0.5412799962504687,0.3885764279465067
+7,age=8|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.6005321706969119,0.6420894668287124,0.12652144231932766,0.08706230826192743
+7,age=8|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.6282951686236367,0.6163121238276278,0.5764537160342474,0.39655873187914914
+7,age=10|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.6454523509985858,0.6989210036856306,0.4215172182468694,0.2914244186046512
+7,age=4|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,113,yA_expected,0.7443171664114026,0.6470668314599521,0.41992980238206135,0.28761061946902655
+7,age=5|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,127,yA_expected,0.8111287097886745,0.716564787617047,0.44496976940382454,0.3203349581302337
+7,age=7|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.6977619974161545,0.6816500757378476,0.5882137379201958,0.420557264001491
+7,age=4|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,156,yA_expected,0.6840853952252599,0.5708664337390273,0.5874002307534257,0.41273779983457404
+7,age=5|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.639914173772505,0.6079648488046857,0.5851431432417348,0.4188909681867428
+7,age=10|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,131,yA_expected,0.7740809171217421,0.675754598347587,0.5215181764800085,0.3623018203170875
+7,age=6|moral=patience|culture=African,roberta_large_pointwise_yB_expected,136,yA_expected,0.7936182240535191,0.6865300693174267,0.5403702113448786,0.37429193899782137
+7,age=10|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,107,yA_expected,0.6134139223634616,0.6590969816333135,0.5573385058484688,0.3912890142831952
+7,age=7|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.7297442721036711,0.5965472854994448,0.5122970328449781,0.36203522504892366
+7,age=8|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7835552946649618,0.7193541142374129,0.6054147478589645,0.4336189569448852
+7,age=4|moral=bravery|culture=Arab,roberta_large_pointwise_yB_expected,154,yA_expected,0.7543945479968608,0.6576213611873356,0.44873621002653263,0.30973601561836855
+7,age=6|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.7633781133735019,0.7632098536338519,0.5791088211440294,0.4095860566448802
+7,age=6|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.7729065983710842,0.7232284030108964,0.6424921735241502,0.4639050387596899
+7,age=8|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,140,yA_expected,0.7967622622034441,0.9451162243567113,0.624097439373729,0.439054470709147
+7,age=7|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.741666510151573,0.7584217362506704,0.5542280113919671,0.3965875815294846
+7,age=7|moral=patience|culture=African,roberta_large_pointwise_yB_expected,126,yA_expected,0.7369789978576881,0.5732432267676111,0.5230536182977128,0.37092063492063493
+7,age=5|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.5656299862528552,0.6154684585400277,0.6601787697678109,0.4835523250396049
+7,age=10|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.8328892902803184,0.9322388834114418,0.6679160588037257,0.4846818538884525
+7,age=9|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,143,yA_expected,0.7601977545587105,0.5625890914178778,0.424644604222069,0.2914409534127844
+7,age=9|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,123,yA_expected,0.7403339355700579,0.7350947978725832,0.566882924249655,0.3959749433559909
+7,age=5|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.7989520402826417,0.6364680235404377,0.3642119844497073,0.25450943592951725
+7,age=5|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.6868187332156707,0.6134371910477346,0.629865586720812,0.4458540172825887
+7,age=5|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.6704730511188121,0.7522717877209361,0.6365390894249955,0.45782695447124977
+7,age=10|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,138,yA_expected,0.5702658055645435,0.5885708516197097,0.43083045464612124,0.2903840050777531
+7,age=6|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7179913476936401,0.8893918283052211,0.5331206948119701,0.37162805458584575
+7,age=4|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7348537850704124,0.6869927307702343,0.5148308682246749,0.3550203315608383
+7,age=7|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,139,yA_expected,0.8622221754939288,0.7820386335170691,0.6580588944993074,0.4774267542487749
+7,age=6|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,134,yA_expected,0.6198526141910857,0.6798069096340233,0.6533572737814686,0.4649309841768601
+7,age=9|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,119,yA_expected,0.5668834667294229,0.6297422570065042,0.4976427859279305,0.32545221478421876
+7,age=7|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,124,yA_expected,0.7170404550937154,0.5517309026671208,0.25481038552321006,0.17833726724364019
+7,age=6|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.8451412765912127,0.92065993616096,0.5558810375670841,0.39777131782945735
+7,age=4|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,113,yA_expected,0.8552856624068443,0.698456265744638,0.7320347328498237,0.5480404551201011
+7,age=5|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.8692201630284613,0.9587046640358374,0.5566480606841276,0.3962962962962963
+7,age=5|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,104,yA_expected,0.5852228162053668,0.5658587525589565,0.5049183825882855,0.3446601941747573
+7,age=6|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,130,yA_expected,0.6653294378949786,0.5537623881272273,0.007688210954676426,0.00035778175313059033
+7,age=5|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.7872383165653584,0.6778471062748623,0.5859810047676975,0.4158978659957134
+7,age=10|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,153,yA_expected,0.6808582010365746,0.7327046322952788,0.5536535188237974,0.390436876504988
+7,age=8|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,131,yA_expected,0.8805561285535868,0.8670985049073433,0.6112688837879677,0.4445096887844979
+7,age=10|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,140,yA_expected,0.693854297642858,0.7146123726327789,0.6408125779012048,0.45878725590955804
+7,age=8|moral=respect|culture=European,roberta_large_pointwise_yB_expected,125,yA_expected,0.8335628102275796,0.6494207330980086,0.6123256528417819,0.4221935483870968
+7,age=10|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,103,yA_expected,0.6595806132921184,0.7982680278521168,0.5681039406053684,0.4033885398819722
+7,age=10|moral=empathy|culture=African,roberta_large_pointwise_yB_expected,126,yA_expected,0.688954096319708,0.6020562250907375,0.43019722534683164,0.2911746031746032
+7,age=6|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,119,yA_expected,0.726079122866341,0.6463303764253767,0.68419740777667,0.5006409343398376
+7,age=4|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.696474146902534,0.7004718615796688,0.6878794613093915,0.49136465324384787
+7,age=8|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,146,yA_expected,0.7846090848458629,0.712527314177372,0.48392893293358913,0.33490788852149267
+7,age=4|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,108,yA_expected,0.685851027097656,0.6380997448776605,0.7648117979936552,0.5631706472827969
+7,age=6|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7501655203647695,0.6095314691170458,0.5182527415072068,0.3589336718502063
+7,age=7|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.5745022604428667,0.673457817112321,0.6090073604719441,0.42683363148479425
+7,age=4|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,141,yA_expected,0.8062743513588754,0.5915131463933331,0.7030823237296117,0.502532928064843
+7,age=8|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,154,yA_expected,0.6534775299284438,0.4842688680074943,0.2594363258499881,0.17018928783634665
+7,age=10|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,123,yA_expected,0.7127125272404277,0.5592360155369,0.13564251718667372,0.09502865520458484
+7,age=5|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,131,yA_expected,0.7720566095727189,0.6060766599240588,0.5392355735867186,0.37310628302994714
+7,age=5|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,123,yA_expected,0.8049951106058397,0.6397922196318112,0.64877919799822,0.46368119418899106
+7,age=10|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,121,yA_expected,0.6978702836297631,0.7403368959731222,0.37981303346430023,0.2724517906336088
+8,age=4|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,150,yA_expected,0.7347615030908664,0.6939733604023229,0.6515898484377084,0.4772259507829978
+8,age=8|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,122,yA_expected,0.7629448961334948,0.6800881746959583,0.3935186256076082,0.2670369868581493
+8,age=8|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,135,yA_expected,0.5672296445858096,0.677370112086977,0.5177982635840406,0.36163626312880043
+8,age=9|moral=patience|culture=European,roberta_large_pointwise_yB_expected,152,yA_expected,0.6967396104462864,0.5340602826939624,0.6271810222869211,0.4503311258278146
+8,age=9|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,117,yA_expected,0.5701549955415184,0.6289026785289874,0.6391448995189498,0.44709696433834367
+8,age=9|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,132,yA_expected,0.931213728867449,0.8766610337934102,0.6689537862699775,0.4799907471663197
+8,age=5|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,129,yA_expected,0.7204729808238098,0.6078110084552691,0.5248211091234347,0.36216085271317827
+8,age=6|moral=patience|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.8133763904381868,0.6316909478861894,0.643462988624279,0.4604105571847507
+8,age=4|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,130,yA_expected,0.5974431337998107,0.5397541935887847,0.5806797853309481,0.42063208109719735
+8,age=7|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,140,yA_expected,0.5359430740199047,0.5306324194538758,0.5801841201810588,0.41788283658787256
+8,age=6|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,147,yA_expected,0.6966742223515345,0.7166032459791011,0.6333519709253564,0.4501910353182369
+8,age=8|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.6673393990842319,0.8452788374117879,0.6550408835994691,0.467274569402229
+8,age=8|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,122,yA_expected,0.683811743936205,0.6062024855930197,0.5747486129515136,0.4006232217856659
+8,age=5|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,142,yA_expected,0.5156002486576652,0.5183199603857244,0.23566035403014726,0.1587254020577365
+8,age=4|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,113,yA_expected,0.8398998609299607,0.7257823923796376,0.5155366291835785,0.3637800252844501
+8,age=5|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,127,yA_expected,0.82085364234682,0.7173492238977343,0.48621461379827524,0.3460817397825272
+8,age=9|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,145,yA_expected,0.6502746995551026,0.5538263591223749,0.6087820815619588,0.4216475095785441
+8,age=7|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,143,yA_expected,0.6765338496410833,0.6303015135561875,0.5347639449752126,0.3753570373288683
+8,age=10|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,131,yA_expected,0.7860628519243889,0.7370301272123437,0.5252495596007046,0.3613623018203171
+8,age=7|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,109,yA_expected,0.8720075028076993,0.632077972597665,0.6253081271429896,0.4505606523955148
+8,age=7|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,101,yA_expected,0.7248991414337009,0.5194590159603862,0.6018986604542808,0.4265346534653465
+8,age=6|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.8016912964837208,0.8020394420461734,0.5643194504079004,0.40435729847494556
+8,age=6|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,132,yA_expected,0.7362629541312045,0.5927674395734142,0.5796152421303085,0.4226231783483692
+8,age=10|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.6823586854404342,0.6549367865141437,0.21857673567681596,0.1464147702876771
+8,age=4|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,135,yA_expected,0.4712701199861817,0.4557567942942738,0.07330016583747927,0.046987285793255944
+8,age=7|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,132,yA_expected,0.7482083897349909,0.6918980808460612,0.598524416523613,0.4207726116123063
+8,age=6|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.8786616250879034,0.7095997898441527,0.41572961878038034,0.29546175817200887
+8,age=7|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.6862849072905518,0.7347161272394296,0.5928205886460156,0.4209320091673033
+8,age=9|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.7134565442778611,0.685705054798045,0.13905482853249201,0.0953198797767282
+8,age=7|moral=respect|culture=European,roberta_large_pointwise_yB_expected,122,yA_expected,0.8209754107145324,0.6594717412240786,0.5553778488604558,0.38978458203495464
+8,age=4|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,122,yA_expected,0.7242578706308871,0.6853291355061774,0.6002458520723942,0.42555209321230186
+8,age=9|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,126,yA_expected,0.7277291650575964,0.7633959492900109,0.616917885264342,0.4311111111111111
+8,age=9|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,139,yA_expected,0.681051251496467,0.6108645554525647,0.5883462174359891,0.4096548847878219
+8,age=8|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7447807241469288,0.8326819082041793,0.5991771482845459,0.42811805775944145
+8,age=9|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.8423121648250272,0.5707585634683597,0.5106595478559561,0.3570201803349077
+8,age=5|moral=respect|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.7414681877760074,0.6928199117883619,0.42795698924731185,0.30073847720906544
+8,age=6|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,128,yA_expected,0.7410087635092586,0.7536261566779275,0.47953671488738325,0.32898622047244097
+8,age=6|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,138,yA_expected,0.7250405280073074,0.8902385344828738,0.5311343435565733,0.37035861631228184
+8,age=4|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.7344503364594387,0.6867674462598158,0.5479199249296215,0.381294964028777
+8,age=9|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,129,yA_expected,0.7052467077335641,0.7693986964586662,0.6547909212880143,0.4842538759689923
+8,age=9|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,136,yA_expected,0.6187149999504308,0.6096850336139052,0.35865655264538904,0.244880174291939
+8,age=4|moral=patience|culture=African,roberta_large_pointwise_yB_expected,133,yA_expected,0.8399286724714228,0.6086076601625211,0.5394966384754287,0.3902939166097061
+8,age=4|moral=respect|culture=African,roberta_large_pointwise_yB_expected,104,yA_expected,0.7223324239389775,0.5682844656575066,0.7230769230769231,0.5347274085138163
+8,age=6|moral=honesty|culture=Global / Neutral,roberta_large_pointwise_yB_expected,130,yA_expected,0.6958806882572395,0.5402922587235149,-0.003247347362383755,0.0025044722719141325
+8,age=6|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.8990873151784297,0.592816734261445,0.5392761005413378,0.3733206389505977
+8,age=10|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.7068012251289625,0.6448939407461908,0.4675530564121168,0.3277707237438781
+8,age=4|moral=honesty|culture=Arab,roberta_large_pointwise_yB_expected,133,yA_expected,0.7316787509964663,0.508735145158581,0.4887014007202538,0.33515607199817726
+8,age=10|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,153,yA_expected,0.6363284729642621,0.6900510713377798,0.5248147105732245,0.37306501547987614
+8,age=10|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,135,yA_expected,0.7070490881120386,0.714299541117974,0.5362988976685201,0.3737976782752902
+8,age=7|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,142,yA_expected,0.8516578555941359,0.8428928254983149,0.4519050023994585,0.3137548696433923
+8,age=7|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,154,yA_expected,0.7233745470414806,0.6306789969214123,0.4994290971520573,0.34691452338511164
+8,age=6|moral=cooperation|culture=Arab,roberta_large_pointwise_yB_expected,137,yA_expected,0.5676364228437196,0.5576532201971305,0.42506113838744003,0.2904680120223272
+8,age=5|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,143,yA_expected,0.5669850716848154,0.5682281609384298,0.13070438950720642,0.08972717423421649
+8,age=4|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,155,yA_expected,0.763239162480027,0.6799885233822744,0.5306628855015951,0.3675743611227482
+8,age=7|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,156,yA_expected,0.6680011556829314,0.7016125376709967,0.6504053989979611,0.472125723738627
+8,age=4|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.6547044334110869,0.6678853368193949,0.6427060272461447,0.466219364458112
+8,age=6|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,119,yA_expected,0.7771914779038706,0.6523350869164268,0.7230807577268196,0.5348240991311779
+8,age=9|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.7500851129080562,0.674538800126136,0.6065804274465691,0.43007124109486317
+8,age=6|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.7387929111865155,0.6570542655572251,0.6134526152980877,0.43007124109486317
+8,age=9|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.5842095096339192,0.6600515800429712,0.4915022047176677,0.34670719351570417
+8,age=9|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,151,yA_expected,0.6169750994604224,0.6349969672907108,0.6071348902056466,0.42834437086092714
+8,age=5|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.7248857770256217,0.7056288630326312,0.7077707237438781,0.50843460910575
+8,age=8|moral=patience|culture=European,roberta_large_pointwise_yB_expected,148,yA_expected,0.8252737311467775,0.6097742558453919,0.6225877980432151,0.43537414965986393
+8,age=10|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,126,yA_expected,0.5463190967580628,0.5787665478133922,0.07594150731158605,0.0493968253968254
+8,age=4|moral=cooperation|culture=African,roberta_large_pointwise_yB_expected,141,yA_expected,0.8452640493142931,0.6227419532982055,0.6842801489789803,0.49544072948328266
+8,age=4|moral=bravery|culture=European,roberta_large_pointwise_yB_expected,111,yA_expected,0.7925765865316222,0.5482488562739244,0.6611267111267112,0.4853398853398853
+8,age=8|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,125,yA_expected,0.6384461594381772,0.6864042003609779,0.4391274961597542,0.2990967741935484
+8,age=7|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,152,yA_expected,0.7586518629627527,0.6929111059461335,0.5808234063928813,0.4092018124782154
+8,age=10|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,121,yA_expected,0.7321848754952642,0.7639716912852892,0.40777672402113535,0.2881542699724518
+8,age=8|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,130,yA_expected,0.7953790246366278,0.5681906216224119,0.6456922803807235,0.4509242695289207
+9,age=5|moral=patience|culture=African,roberta_large_pointwise_yB_expected,105,yA_expected,0.6795559196800272,0.6242059010379661,0.7000829359319926,0.5058608058608058
+9,age=5|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,146,yA_expected,0.813808692672481,0.7949481103003166,0.6334975369458128,0.4562116202172886
+9,age=7|moral=honesty|culture=East Asian,roberta_large_pointwise_yB_expected,157,yA_expected,0.6976666804541092,0.6571470216403973,0.5118860821513406,0.36207741303282703
+9,age=7|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,140,yA_expected,0.5771832124613198,0.5460441820167687,0.51331919267018,0.36382322713257964
+9,age=4|moral=empathy|culture=Arab,roberta_large_pointwise_yB_expected,150,yA_expected,0.8252625146275923,0.6744918339568687,0.572517889683986,0.40671140939597317
+9,age=8|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,136,yA_expected,0.6262666419251299,0.682698312462917,0.5922522780401699,0.420479302832244
+9,age=8|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,138,yA_expected,0.6274574840561428,0.6712187549335207,0.11542983956218078,0.07754152121019782
+9,age=9|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,118,yA_expected,0.806915274357635,0.7099446255948707,0.5619588122080644,0.3970737360567869
+9,age=10|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.76245059583775,0.5846251241765349,0.25413500849403553,0.17110347788750538
+9,age=4|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,113,yA_expected,0.7452343168988524,0.6192787280630879,0.4958663251047974,0.34576485461441214
+9,age=5|moral=respect|culture=Arab,roberta_large_pointwise_yB_expected,127,yA_expected,0.7487353269405681,0.7119884903807009,0.45297267529058866,0.32983377077865267
+9,age=7|moral=respect|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.6923183840023875,0.7180678216728752,0.6202766926837376,0.44925915571708136
+9,age=9|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,141,yA_expected,0.7891209698135995,0.9387343329290397,0.6041654180401558,0.43627152988855117
+9,age=4|moral=bravery|culture=African,roberta_large_pointwise_yB_expected,154,yA_expected,0.7791073284664995,0.5355357471372975,0.6125023616484717,0.4351922587216705
+9,age=6|moral=cooperation|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.8783297967241347,0.6249992708874109,0.7198414488737069,0.528780896522832
+9,age=5|moral=honesty|culture=South Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7202118685413352,0.6310069268939312,0.615680094553334,0.4468629961587708
+9,age=6|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,136,yA_expected,0.7072539803509929,0.6835896408110884,0.5441200324412003,0.3873638344226579
+9,age=5|moral=empathy|culture=South Asian,roberta_large_pointwise_yB_expected,131,yA_expected,0.7413285710484272,0.724375829644072,0.7025196177867934,0.5126247798003524
+9,age=6|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.7166489449513248,0.6693993406520955,0.4464364378074829,0.3118220261077404
+9,age=10|moral=empathy|culture=Global / Neutral,roberta_large_pointwise_yB_expected,137,yA_expected,0.6313543771310877,0.6005952269578232,0.17038475180614931,0.11206526406182911
+9,age=5|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,124,yA_expected,0.7463214810198622,0.7562839842523803,0.6574162077104642,0.47128245476003144
+9,age=4|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,135,yA_expected,0.5473361761067721,0.5061398545740539,0.07795824797580723,0.053841901603095633
+9,age=7|moral=patience|culture=European,roberta_large_pointwise_yB_expected,133,yA_expected,0.776635253358894,0.6177379909779722,0.6174289182930188,0.42971064023695604
+9,age=7|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,132,yA_expected,0.7984859128208643,0.7856915665602976,0.6452025274845684,0.4594031922276197
+9,age=5|moral=honesty|culture=Latin American,roberta_large_pointwise_yB_expected,132,yA_expected,0.6538771724370616,0.5468866010414218,0.5791665144819022,0.40920656951191303
+9,age=10|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,137,yA_expected,0.7798706902606779,0.9716561520926293,0.504900405100155,0.3514383855732074
+9,age=7|moral=respect|culture=African,roberta_large_pointwise_yB_expected,146,yA_expected,0.6863876946962384,0.6361371374863861,0.5045626753299336,0.35077940481813885
+9,age=6|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,105,yA_expected,0.6415887716123921,0.6706445099226802,0.630489321998756,0.44358974358974357
+9,age=6|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,144,yA_expected,0.47499532644290704,0.5396538930387552,0.10112933043967527,0.06546231546231546
+9,age=9|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,138,yA_expected,0.7120792014965084,0.5990792802209918,0.47620145711421974,0.3331217602877393
+9,age=8|moral=kindness|culture=Global / Neutral,roberta_large_pointwise_yB_expected,128,yA_expected,0.5063004174169733,0.5691024007394619,0.04749015748031496,0.028543307086614175
+9,age=10|moral=kindness|culture=South Asian,roberta_large_pointwise_yB_expected,134,yA_expected,0.8096689941167027,0.9270343058874705,0.6475267771418596,0.4691953765009539
+9,age=5|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,149,yA_expected,0.762129901067386,0.5852797858344551,0.49887538545256666,0.3462724469435879
+9,age=5|moral=kindness|culture=East Asian,roberta_large_pointwise_yB_expected,148,yA_expected,0.7076517255210675,0.628622986955132,0.6321088928950865,0.45045045045045046
+9,age=6|moral=kindness|culture=Arab,roberta_large_pointwise_yB_expected,139,yA_expected,0.8309522974688548,0.6347927032561177,0.6120559453058672,0.4350954019393181
+9,age=6|moral=cooperation|culture=South Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.713193281889852,0.8477163311867059,0.5771124715134724,0.4086122406422688
+9,age=7|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,141,yA_expected,0.7716632334660725,0.8259001067671631,0.6378055567447236,0.4636271529888551
+9,age=6|moral=respect|culture=European,roberta_large_pointwise_yB_expected,144,yA_expected,0.8083786967180047,0.5667327341910268,0.5966361224981914,0.41977466977466976
+9,age=4|moral=bravery|culture=South Asian,roberta_large_pointwise_yB_expected,145,yA_expected,0.7720100656288063,0.7344618865596024,0.6831561958746654,0.49789272030651344
+9,age=4|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,139,yA_expected,0.704671525771703,0.6304427678181492,0.5104785736628089,0.35126681263684706
+9,age=10|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,101,yA_expected,0.8385270117253759,0.7569948945846485,0.7238555620267909,0.5417821782178218
+9,age=8|moral=respect|culture=East Asian,roberta_large_pointwise_yB_expected,150,yA_expected,0.6793803044631663,0.722766077846038,0.5226241166274057,0.3730648769574944
+9,age=9|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,132,yA_expected,0.7677133233918417,0.5947387381319523,0.24060150375939848,0.16053666435345826
+9,age=10|moral=respect|culture=Global / Neutral,roberta_large_pointwise_yB_expected,126,yA_expected,0.6216583466352367,0.5811263127823618,0.05294038245219348,0.04126984126984127
+9,age=4|moral=respect|culture=African,roberta_large_pointwise_yB_expected,104,yA_expected,0.7245259135950137,0.569610913496909,0.7213378854155553,0.5220313666915609
+9,age=6|moral=empathy|culture=Latin American,roberta_large_pointwise_yB_expected,129,yA_expected,0.7456294260377399,0.7478973324354635,0.6613483899821109,0.48352713178294576
+9,age=5|moral=patience|culture=Arab,roberta_large_pointwise_yB_expected,104,yA_expected,0.7144803594641808,0.596441408915917,0.579078203350048,0.4066467513069455
+9,age=5|moral=honesty|culture=European,roberta_large_pointwise_yB_expected,154,yA_expected,0.7161252544442526,0.5782644065310736,0.5778933274189442,0.40701128936423053
+9,age=6|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,138,yA_expected,0.8968125755114216,0.5715863012381189,0.5462991079684649,0.3771289537712895
+9,age=10|moral=patience|culture=Latin American,roberta_large_pointwise_yB_expected,153,yA_expected,0.734270593734166,0.7309545570374658,0.535215042954981,0.37925696594427244
+9,age=10|moral=kindness|culture=Latin American,roberta_large_pointwise_yB_expected,135,yA_expected,0.6987619753614126,0.7313542280537386,0.5096380840893572,0.35831951354339414
+9,age=10|moral=bravery|culture=Latin American,roberta_large_pointwise_yB_expected,117,yA_expected,0.533315581494341,0.5678920025778492,0.6041900822730747,0.44061302681992337
+9,age=8|moral=respect|culture=European,roberta_large_pointwise_yB_expected,125,yA_expected,0.8566183747595353,0.619499648462872,0.6129585253456221,0.42116129032258065
+9,age=4|moral=cooperation|culture=Latin American,roberta_large_pointwise_yB_expected,147,yA_expected,0.656659180277151,0.7612585481270864,0.6525247640707523,0.47591091231012955
+9,age=9|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.7060147951406648,0.671820285598314,0.5811187664041995,0.41232345956755406
+9,age=6|moral=empathy|culture=East Asian,roberta_large_pointwise_yB_expected,127,yA_expected,0.7487405940784769,0.6457384732855761,0.562412120359955,0.38532683414573177
+9,age=8|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,133,yA_expected,0.6985031488135433,0.7862611463546948,0.5990400016323033,0.42629300524037367
+9,age=9|moral=bravery|culture=East Asian,roberta_large_pointwise_yB_expected,141,yA_expected,0.6094316685973195,0.6954158698534029,0.5498266192902094,0.3977710233029382
+9,age=5|moral=patience|culture=South Asian,roberta_large_pointwise_yB_expected,149,yA_expected,0.6743359977157942,0.6934204529783858,0.6985779067658262,0.492472338109922
+9,age=7|moral=respect|culture=South Asian,roberta_large_pointwise_yB_expected,130,yA_expected,0.5912690175665868,0.7064611589828002,0.6233186305971677,0.44257602862254025
+9,age=7|moral=patience|culture=Global / Neutral,roberta_large_pointwise_yB_expected,110,yA_expected,0.6372329192403631,0.5405792752047611,0.09250501544079526,0.06121768140116764
+9,age=10|moral=cooperation|culture=Global / Neutral,roberta_large_pointwise_yB_expected,126,yA_expected,0.5735253867116584,0.5888130639287816,0.050012748406449196,0.029841269841269842
+9,age=8|moral=bravery|culture=Global / Neutral,roberta_large_pointwise_yB_expected,154,yA_expected,0.6681908526660144,0.5111816667651605,0.2541298044144344,0.16679399032340209
+9,age=7|moral=empathy|culture=European,roberta_large_pointwise_yB_expected,137,yA_expected,0.8216925081064119,0.5325327176810609,0.5898407601695074,0.3982395878059253
+9,age=6|moral=respect|culture=African,roberta_large_pointwise_yB_expected,140,yA_expected,0.8280498299415113,0.7969252065420811,0.557849161400363,0.40513874614594036
+9,age=6|moral=kindness|culture=European,roberta_large_pointwise_yB_expected,155,yA_expected,0.7534808025756405,0.6017309248284971,0.6448970384454256,0.45136154168412235
+9,age=6|moral=patience|culture=East Asian,roberta_large_pointwise_yB_expected,143,yA_expected,0.7680315067112388,0.7369413444578571,0.4853573656390558,0.34246035654486356
+9,age=8|moral=honesty|culture=African,roberta_large_pointwise_yB_expected,162,yA_expected,0.6054012620743888,0.5593080511926133,0.4686921803486221,0.3333333333333333
+9,age=10|moral=cooperation|culture=East Asian,roberta_large_pointwise_yB_expected,121,yA_expected,0.7016681810448224,0.7549935421673333,0.3701530957864788,0.2606060606060606
+9,age=7|moral=kindness|culture=African,roberta_large_pointwise_yB_expected,117,yA_expected,0.7125917622612936,0.6147571244413093,0.5816586491630326,0.4123194812849985

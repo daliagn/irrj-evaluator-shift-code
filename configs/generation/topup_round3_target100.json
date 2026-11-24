@@ -1,0 +1,13 @@
+{
+  "experiment_name": "topup_round3_target100",
+  "generation_round": "topup_round3",
+  "input_plan": "storyrank_clean/results/generation_topup_plan_round3_target100.json",
+  "output_raw": "storyrank_clean/data/raw/gemma_topup_round3_raw.jsonl",
+  "base_deduped_file": "storyrank_clean/data/deduped/gemma_FINAL_round1_round2_clean_dedup.jsonl",
+  "target_unique_per_query": 100,
+  "generator_model": "gemma-2-9b-it",
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_new_tokens": 700,
+  "notes": "Third top-up to expand the clean dataset toward 100 valid non-duplicate stories per query."
+}

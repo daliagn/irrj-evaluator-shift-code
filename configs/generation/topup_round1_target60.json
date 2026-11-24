@@ -1,0 +1,13 @@
+{
+  "experiment_name": "topup_round1_target60",
+  "generation_round": "topup_round1",
+  "input_plan": "storyrank_clean/results/generation_topup_plan_target60.json",
+  "output_raw": "storyrank_clean/data/raw/gemma_topup_round1_raw.jsonl",
+  "base_deduped_file": "storyrank_clean/data/deduped/gemma_stories_eval_clean_exact_dedup_within_query.jsonl",
+  "target_unique_per_query": 60,
+  "generator_model": "gemma-2-9b-it",
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_new_tokens": 700,
+  "notes": "Top-up generation for queries below 60 unique exact-deduplicated stories. New generations must be cleaned and deduplicated before use."
+}

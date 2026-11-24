@@ -1,0 +1,52 @@
+{
+  "final_corpus": {
+    "records": 46953,
+    "queries": 343,
+    "pool_min": 101,
+    "pool_max": 166,
+    "pool_mean": 136.88921282798833,
+    "missing_text": 0,
+    "exact_duplicate_normalized_texts": 0,
+    "stories_below_50_words": 0
+  },
+  "raw_generation_files": {
+    "base_raw": 35000,
+    "topup_round1_raw": 17762,
+    "topup_round2_raw": 4113,
+    "topup_round3_raw": 28527,
+    "total_raw_generated_lines": 85402,
+    "bad_json": 0,
+    "missing_text_field": 0,
+    "empty_text": 0
+  },
+  "documented_final_quality_filtering": {
+    "input_records": 59978,
+    "kept_records": 46953,
+    "dropped_total": 13025,
+    "dropped_too_short": 2803,
+    "dropped_missing_moral": 10222,
+    "min_words": 50
+  },
+  "broader_raw_to_final_accounting": {
+    "raw_generated_lines": 85402,
+    "final_retained_records": 46953,
+    "total_removed_raw_to_final": 38449,
+    "empty_text": 0,
+    "documented_too_short": 4054,
+    "documented_missing_moral": 12860,
+    "documented_exact_duplicate_removals_from_original_cleaned_baseline": 19587,
+    "early_unclassified_cleaning_removals": 1948,
+    "accounting_check": "0 + 4054 + 12860 + 19587 + 1948 = 38449"
+  },
+  "source_reports": {
+    "final_dataset_audit": "storyrank_clean/results/dataset_audit_FINAL_generation_dataset_46953.json",
+    "round0_topup1_final_filter": "storyrank_clean/results/filter_round0_plus_topup_round1_final_report.json",
+    "topup_round1_filter": "storyrank_clean/results/filter_topup_round1_report.json",
+    "topup_round2_filter": "storyrank_clean/results/filter_topup_round2_report.json",
+    "topup_round3_filter": "storyrank_clean/results/filter_topup_round3_report.json",
+    "original_cleaned_duplicate_scope": "storyrank_clean/results/duplicate_scope_cleaned.json",
+    "old_cleaned_exact_dedup": "storyrank_clean/results/exact_dedup_cleaned_within_query_report.json",
+    "final_exact_dedup": "storyrank_clean/results/exact_dedup_FINAL_round1_round2_round3_report.json"
+  },
+  "paper_recommendation": "For the paper, report the documented final quality-filtering stages and final corpus audit. Avoid presenting the full raw-to-final deletion table unless the early 1,948 unclassified removals are explained."
+}

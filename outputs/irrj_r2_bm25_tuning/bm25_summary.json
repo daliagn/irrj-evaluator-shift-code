@@ -1,0 +1,98 @@
+{
+  "default_ndcg@5": 0.5915075096364546,
+  "default_err@5": 0.5884073748079545,
+  "tuned_ndcg@5": 0.5963334672886337,
+  "tuned_err@5": 0.591479511825504,
+  "delta_tuned_minus_default_ndcg@5": 0.004825957652178863,
+  "delta_CI95_ndcg@5": [
+    0.0019551584043308212,
+    0.007741169322235984
+  ],
+  "cluster_signflip_p_ndcg@5": 0.0011499425028748563,
+  "tuned_wins_ndcg@5": 303,
+  "default_wins_ndcg@5": 245,
+  "ties_ndcg@5": 152,
+  "delta_tuned_minus_default_err@5": 0.0030721370175495555,
+  "delta_CI95_err@5": [
+    -0.00014909918157697018,
+    0.00615403047548478
+  ],
+  "cluster_signflip_p_err@5": 0.05309734513274336,
+  "tuned_wins_err@5": 323,
+  "default_wins_err@5": 225,
+  "ties_err@5": 152,
+  "selected_params_by_seed": {
+    "0": [
+      0.2,
+      0.25
+    ],
+    "1": [
+      0.2,
+      0.25
+    ],
+    "2": [
+      3.0,
+      0.0
+    ],
+    "3": [
+      3.0,
+      0.0
+    ],
+    "4": [
+      2.0,
+      0.0
+    ],
+    "5": [
+      1.2,
+      0.25
+    ],
+    "6": [
+      0.6,
+      0.0
+    ],
+    "7": [
+      2.0,
+      0.0
+    ],
+    "8": [
+      1.2,
+      0.0
+    ],
+    "9": [
+      1.5,
+      0.75
+    ]
+  },
+  "parameter_selection_counts": {
+    "(0.2, 0.25)": 2,
+    "(0.6, 0.0)": 1,
+    "(1.2, 0.0)": 1,
+    "(1.2, 0.25)": 1,
+    "(1.5, 0.75)": 1,
+    "(2.0, 0.0)": 2,
+    "(3.0, 0.0)": 2
+  },
+  "n_query_seed": 700,
+  "n_unique_test_queries": 315,
+  "validation_selection": "Judge B only; one (k1,b) pair per seed",
+  "grid": {
+    "k1": [
+      0.2,
+      0.6,
+      1.0,
+      1.2,
+      1.5,
+      2.0,
+      3.0
+    ],
+    "b": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ]
+  },
+  "original_reference_checked_seeds": 10,
+  "original_reference_max_absolute_delta": 0.0
+}

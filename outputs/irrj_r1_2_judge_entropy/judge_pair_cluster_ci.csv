@@ -1,0 +1,3 @@
+comparison,unit,estimate_query_weighted,cluster_bootstrap_ci95_low,cluster_bootstrap_ci95_high,n_unique_queries,bootstrap_draws
+Judge_A_minus_Judge_B_mean_entropy,bits,0.06767681158861312,0.04360202779268011,0.0914897766832006,343,20000
+Judge_A_minus_Judge_B_mean_confidence,max probability,-0.05679394690169164,-0.06649817918892693,-0.04693944404043073,343,20000

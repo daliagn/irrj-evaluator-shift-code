@@ -1,0 +1,13 @@
+{
+  "experiment_name": "topup_round2_target60",
+  "generation_round": "topup_round2",
+  "input_plan": "storyrank_clean/results/generation_topup_plan_round2_target60.json",
+  "output_raw": "storyrank_clean/data/raw/gemma_topup_round2_raw.jsonl",
+  "base_deduped_file": "storyrank_clean/data/deduped/gemma_round0_plus_topup_round1_FINAL_clean_dedup.jsonl",
+  "target_unique_per_query": 60,
+  "generator_model": "gemma-2-9b-it",
+  "temperature": 0.9,
+  "top_p": 0.95,
+  "max_new_tokens": 700,
+  "notes": "Second top-up only for queries that fell below 60 after final quality filtering."
+}
