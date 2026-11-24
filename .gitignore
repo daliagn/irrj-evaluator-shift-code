@@ -1,0 +1,21 @@
+
+# Do not accidentally commit private corpora, model weights or HPC outputs.
+data/
+private_data/
+*_core_data*.tar.gz
+*.jsonl
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+logs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+local_outputs/
